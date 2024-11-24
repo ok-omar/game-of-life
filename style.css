@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    font-family: Arial, sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    display: grid;
+    gap: 1px;
+    margin: 20px auto;
+}
+
+#button, #stopButton {
+    width: 200px;
+    margin: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+
+#counter, #desired_size {
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#desired_size {
+    margin-top: 20px;
+    width: 245px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.child {
+    width: 10px;
+    height: 10px;
+    background-color: rebeccapurple; 
+    /* A tribute to Rebecca Alison Meyer 
+    
+    Purple was the favorite color of Rebecca Alison Meyer who passed away twelve hours into her sixth birthday from brain cancer. Rebecca was the daughter of prolific CSS standards pioneer Eric Meyer.*/
+}
+
+.child.alive {
+    background-color: green; /* Alive cell color */
+}
+
+.child.dead {
+    background-color: lightblue; /* Dead cell color */
+}
+
+input {
+    text-align: center; 
+}
+
+input::placeholder {
+    text-align: center; 
+}
