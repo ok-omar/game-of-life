@@ -1,1 +1,1 @@
-Dummy text for Initial commit
+## Conway's game of life
